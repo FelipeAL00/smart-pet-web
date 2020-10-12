@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Container } from './styles';
+import { Container, Button } from './styles';
 
 function Header() {
   return (
@@ -19,7 +19,7 @@ function Header() {
           </li>
         </ul>
 
-        <button>Entrar</button>
+        <Button to="/Controle">Entrar</Button>
       </div>
     </Container>
   );

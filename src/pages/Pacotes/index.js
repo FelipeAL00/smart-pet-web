@@ -16,7 +16,7 @@ function Pacotes() {
         <Title>
           <h2>Planos</h2>
           <div></div>
-        </Title>  
+        </Title>
         <Box>
           <BoxPacote type={"Básico"} desc={obj}/>
           <BoxPacote type={"Intermediário"} desc={obj2}/>

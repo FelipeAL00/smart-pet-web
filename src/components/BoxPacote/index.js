@@ -12,7 +12,7 @@ function BoxPacote(props) {
         </div>
         <Conteudo>
           {props.desc.map((descricao, index) =>{
-            return ( 
+            return (
               <IconText key={index}>
                 <img src={Vector} alt="icon"/>
                 <h5>{descricao}</h5>

@@ -5,19 +5,18 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url(${fundo}) no-repeat left top;  
+  background: url(${fundo}) no-repeat left top;
   background-size: 1200px 500px;
   min-height: 100vh;
 `;
 
 export const Title = styled.div`
-  margin-top: 25%;
-  padding-bottom: 2%;
+  padding-bottom: 20px;
   width:20%;
   text-align: center;
 
   @media(min-width: 680px) {
-    margin-top: 10%;
+    margin-top: 80px;
   }
 
   div {

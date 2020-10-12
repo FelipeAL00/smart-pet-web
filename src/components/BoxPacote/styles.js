@@ -3,12 +3,11 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-
   h3{
     background-color: #2dc7ff;
     color: white;
     text-align: center;
-    padding: 2%;
+    padding: 20px;
   }
 
   button {
@@ -38,7 +37,8 @@ export const Container = styled.div`
 
 export const Box = styled.div`
   border-radius: 2%;
-  width: 275px;
+  width: 300px;
+  height: 400px;
   background-color: snow;
 `;
 
